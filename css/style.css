@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Comfortaa|Open+Sans|Libre+Baskerville&display=swap');
+
+h1{font-family: 'Comfortaa' , cursive; }
+
+h2{font-family: 'Baloo Bhai' , cursive; text-align: center;}
+
+h3{font-family: 'Baloo Bhai' , cursive; text-align: center;}
+
+p{font-family: 'Open Sans' , sans-serif; text-align: center;}
+
+a{font-family: 'Open Sans' , sans-serif; text-align: center;}
+
+.tagline{font-family: 'Baloo Bhai' , cursive; font-size: 1.5rem;}
+
+.site-header h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tagline
+{
+    margin-bottom: 0;
+}
+
+.retrieval-attractor
+{
+    font-family: 'Baloo Bhai' , cursive; font-size: 1.5rem;
+}
+
+h2.SSS
+{
+    text-align: center;
+}
+.who-for
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet; 
+}
+
+.why-made
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet; 
+    margin-top: 1rem;
+}
+
+.what-is-it
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+}
+
+.what-is-it h2
+{
+    margin-bottom: 0;
+}
+
+.what-is-it p
+{
+    margin-top: 0;
+}
+
+.why-its-effective
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+    margin-top: 1rem;
+}
+
+.why-its-effective h2
+{
+    margin-bottom: 0;
+}
+
+.why-its-effective p
+{
+    margin-top: 0;
+}
+
+.resources
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+    margin-top: 1rem;
+}
+
+.resources h2
+{
+    margin-bottom: 0;
+}
+
+.resources h3
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.resources 
+
+.tips-and-tricks
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+    margin-top: 1rem;
+}
+
+.tips-and-tricks h2
+{
+    margin-bottom: 0;
+}
+
+.tips-and-tricks p
+{
+    margin-top: 0;
+}
+
+.when-to-use
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+    margin-top: 1rem;
+}
+
+.when-to-use h2
+{
+    margin-bottom: 0;
+}
+
+.when-to-use p
+{
+    margin-top: 0;
+}
+
+.how-to-use
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet; 
+    margin-top: 1rem;
+}
+
+.how-to-use h2
+{
+    margin-bottom: 0;
+}
+
+.how-to-use p
+{
+    margin-top: 0;
+}
+
+.start
+{ 
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet; 
+}
+.study-skills
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.skill
+{
+    display: grid;
+    border:4px solid blueviolet;
+}
+
+.featured
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+    margin-top: 1rem;
+}
+
+.credits
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    border:4px solid blueviolet;
+    margin-top: 1rem;
+}
+
+.site-nav li
+{
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 10px; /* spaces them out from each other. Adjust to suit your needs */
+}
+
+.site-nav ul
+{
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    background-color: blueviolet;
+    color: White;
+    float: left;
+    width: 100%;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.site-nav ul li { 
+    display: inline; 
+}
+
+.site-nav ul li a
+{
+    padding: 0.2em 1em;
+    background-color: blueviolet;
+    color: White;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #fff;
+}
+
+.site-nav ul li a:hover
+{
+    background-color: violet;
+    color: #fff;
+}
+
+.site-nav ul li a.current {
+    background-color: darkviolet;
+    color: #fff;
+}
+
