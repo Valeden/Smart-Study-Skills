@@ -1,236 +1,327 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Comfortaa|Open+Sans|Libre+Baskerville&display=swap');
 
-h1{font-family: 'Comfortaa' , cursive; }
-
-h2{font-family: 'Baloo Bhai' , cursive; text-align: center;}
-
-h3{font-family: 'Baloo Bhai' , cursive; text-align: center;}
-
-p{font-family: 'Open Sans' , sans-serif; text-align: center;}
-
-a{font-family: 'Open Sans' , sans-serif; text-align: center;}
-
-.tagline{font-family: 'Baloo Bhai' , cursive; font-size: 1.5rem;}
-
-.site-header h1{
-    margin-top: 0;
-    margin-bottom: 0;
+body{
+    background-color: #D1D1D1;
 }
 
-.tagline
-{
-    margin-bottom: 0;
+h1 {
+    font-family: 'Comfortaa', cursive;
 }
 
-.retrieval-attractor
-{
-    font-family: 'Baloo Bhai' , cursive; font-size: 1.5rem;
-}
-
-h2.SSS
-{
+h2 {
+    font-family: 'Baloo Bhai', cursive;
     text-align: center;
 }
-.who-for
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    border:4px solid #7E3ADA; 
+
+h3 {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
 }
 
-.why-made
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    border:4px solid #7E3ADA; 
-    margin-top: 1rem;
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
-.what-is-it
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
-.what-is-it h2
-{
-    margin-bottom: 0;
+.tagline {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.5rem;
 }
 
-.what-is-it p
-{
-    margin-top: 0;
-}
-
-.why-its-effective
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
-    margin-top: 1rem;
-}
-
-.why-its-effective h2
-{
-    margin-bottom: 0;
-}
-
-.why-its-effective p
-{
-    margin-top: 0;
-}
-
-.resources
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
-    margin-top: 1rem;
-}
-
-.resources h2
-{
-    margin-bottom: 0;
-}
-
-.resources h3
-{
+.site-header h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.tips-and-tricks
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
-    margin-top: 1rem;
-}
-
-.tips-and-tricks h2
-{
+.tagline {
     margin-bottom: 0;
 }
 
-.tips-and-tricks p
-{
-    margin-top: 0;
+.retrieval-attractor {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.5rem;
 }
 
-.when-to-use
-{
+h2.SSS {
+    text-align: center;
+}
+
+.who-for {
     display: grid;
     grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
+    border: 4px solid #7E3ADA;
+}
+
+.why-made {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
     margin-top: 1rem;
 }
 
-.when-to-use h2
-{
+.what-is-it {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
+}
+
+.what-is-it h2 {
     margin-bottom: 0;
 }
 
-.when-to-use p
-{
+.what-is-it p {
     margin-top: 0;
 }
 
-.how-to-use
-{
+.why-its-effective {
     display: grid;
     grid-template-columns: 1fr;
-    border:4px solid #7E3ADA; 
+    border: 4px solid #7E3ADA;
     margin-top: 1rem;
 }
 
-.how-to-use h2
-{
+.why-its-effective h2 {
     margin-bottom: 0;
 }
 
-.how-to-use p
-{
+.why-its-effective p {
     margin-top: 0;
 }
 
-.start
-{ 
+.resources {
     display: grid;
     grid-template-columns: 1fr;
-    border:4px solid #7E3ADA; 
+    border: 4px solid #7E3ADA;
+    margin-top: 1rem;
 }
-.study-skills
-{
+
+.resources h2 {
+    margin-bottom: 0;
+}
+
+.resources h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tips-and-tricks {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
+    margin-top: 1rem;
+}
+
+.tips-and-tricks h2 {
+    margin-bottom: 0;
+}
+
+.tips-and-tricks p {
+    margin-top: 0;
+}
+
+.when-to-use {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
+    margin-top: 1rem;
+}
+
+.when-to-use h2 {
+    margin-bottom: 0;
+}
+
+.when-to-use p {
+    margin-top: 0;
+}
+
+.how-to-use {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
+    margin-top: 1rem;
+}
+
+.how-to-use h2 {
+    margin-bottom: 0;
+}
+
+.how-to-use p {
+    margin-top: 0;
+}
+
+.start {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
+}
+
+.study-skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 1rem;
 }
 
-.skill
-{
+.skill {
     display: grid;
-    border:4px solid #7E3ADA;
+    border: 4px solid #7E3ADA;
 }
 
-.featured
-{
+.featured {
     display: grid;
     grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
+    border: 4px solid #7E3ADA;
     margin-top: 1rem;
 }
 
-.credits
-{
+.credits {
     display: grid;
     grid-template-columns: 1fr;
-    border:4px solid #7E3ADA;
+    border: 4px solid #7E3ADA;
     margin-top: 1rem;
 }
 
-.site-nav li
-{
-    display: inline; /* brings nav elements up next to each other */
-    list-style-type: none; /* removes the bullet points */
-    padding-right: 10px; /* spaces them out from each other. Adjust to suit your needs */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
-.site-nav ul
-{
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 2rem;
-    background-color: #7E3ADA;
-    color: #FFFFFF;
-    float: left;
-    width: 100%;
-    font-family: arial, helvetica, sans-serif;
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
-.site-nav ul li { 
-    display: inline; 
+header.site-header {
+    /*  font-family: 'Roboto', sans-serif;*/
+    font-weight: 400;
 }
 
-.site-nav ul li a
-{
-    padding: 0.2em 1em;
-    background-color: #7E3ADA;
-    color: #FFFFFF;
+header.site-header .logo img {
+    width: 320px;
+}
+
+header.site-header .bottom-header {
+    border-bottom: 1px solid #e9e9e9;
+    padding-bottom: 7px;
+    /*     margin-right: 42px; */
+}
+
+header.site-header .bottom-header:after,
+header.site-header .top-header:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 1285px) {
+    header.site-header .bottom-header {
+        margin-right: 0;
+    }
+}
+
+header.site-header nav {
+    float: right;
+    padding-top: 15px;
+}
+
+@media (max-width: 1285px) {
+    header.site-header nav {
+        padding-top: 10px;
+    }
+}
+
+.hamburger {
+    display: none;
+    background: linear-gradient(to bottom, #666666 0%, #666666 20%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 40%, #666666 40%, #666666 60%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0) 80%, #666666 80%, #666666 100%);
+    width: 21px;
+    height: 21px;
+}
+
+@media (max-width: 1285px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
     text-decoration: none;
+}
+
+header.site-header .menu {
+    text-transform: uppercase;
+    list-style: none;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+header.site-header .menu li {
     float: left;
-    border-right: 1px solid #FFFFFF;
+    margin-right: 35px;
+    position: relative;
 }
 
-.site-nav ul li a:hover
-{
-    background-color: #EE82EE;
-    color: #FFFFFF;
+header.site-header .menu li:last-of-type {
+    margin-right: 10px;
 }
 
-.site-nav ul li a.current {
-    background-color: #8625CB;
-    color: #FFFFFF;
+header.site-header .menu li a {
+    text-decoration: none;
+    color: #666666;
 }
 
+@media (max-width: 1284px) {
+    header.site-header .menu {
+        display: none;
+        background-color: white;
+    }
+
+    header.site-header .menu li {
+        margin-right: 0;
+        display: block;
+        float: none;
+        padding-bottom: 14px;
+        text-align: center;
+    }
+
+    header.site-header .menu li a {
+        display: block;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        display: inline-block;
+        position: relative;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    header.site-header .menu li {
+        margin-right: 22px;
+    }
+}
+
+header.site-header .menu.mobile-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    padding-left: 20px;
+    padding-top: 12px;
+    border-bottom: 1px solid #e9e9e9;
+}
