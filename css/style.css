@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Comfortaa|Open+Sans|Libre+Baskerville&display=swap');
 
-body{
+body {
     background-color: #D1D1D1;
 }
 
 h1 {
+    text-align: center;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -154,6 +155,21 @@ h2.SSS {
     margin-top: 0;
 }
 
+.the-path {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 4px solid #7E3ADA;
+    margin-top: 1rem;
+}
+
+.the-path h2 {
+    margin-bottom: 0;
+}
+
+.the-path p {
+    margin-top: 0;
+}
+
 .start {
     display: grid;
     grid-template-columns: 1fr;
@@ -194,10 +210,37 @@ h2.SSS {
     box-sizing: border-box;
 }
 
-img {
+img,
+video {
     width: auto;
     height: auto;
     max-width: 100%;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-top: 25px;
+    height: 0;
+    clear: both;
+    outline: 1px solid red;
+}
+
+.videoWrapper.ratio-16-9 {
+    padding-bottom: 56.25%;
+    /* 16:9 */
+}
+
+.videoWrapper.ratio-4-3 {
+    padding-bottom: 75%;
+    /* 4:3 */
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header.site-header {
